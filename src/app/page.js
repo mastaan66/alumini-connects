@@ -1,11 +1,13 @@
-import './globals.css'
-import {Body, NavBar} from "../../pages/index";
+import Footer from "../../pages/Footer";
+import Navbar from "../../pages/NavBar";
+import Body  from "../../pages/Body";
 
 export default function Home() {
   return (
-      <>
-      <NavBar/>
+    <>
+      <Navbar />
       <Body/>
-      </>
+      <Footer />
+    </>
   );
 }
