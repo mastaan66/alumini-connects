@@ -1,11 +1,12 @@
 import "../src/app/globals.css"
 import Navbar from "../Components/NavBar";
-
-const Contact = () => {
+import Contact from "../Components/Contact";
+const contact = () => {
   return (
     <>
         <Navbar/>
+        <Contact/>
     </>
   );
 };
-export default Contact;
+export default contact;

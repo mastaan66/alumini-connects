@@ -1,4 +1,3 @@
-// pages/about.js
 import '../src/app/globals.css';
 import Head from 'next/head';
 import Navbar from '../Components/NavBar'; // Adjust the path as necessary
@@ -7,7 +6,7 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>About Us - JNTUH CSE</title>
+        <title>About Us - Alumini Connect</title>
         <meta name="description" content="Learn more about us and what we do." />
       </Head>
 

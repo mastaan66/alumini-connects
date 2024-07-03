@@ -1,19 +1,25 @@
 "use client"
 
 import './globals.css';
-// import Footer from "../../pages/Footer";
+import Footer from "../../Components/Footer";
 import Navbar from "../../Components/NavBar";
-import ThreeGlobe from '../../Components/ThreeGlobe';
+import TwoColumnSection from '../../Components/TwoColumnSection';
 
 export default function Home() {
   return (
     <div>
       <main>
-        <Navbar />
-        <div className="flex justify-center mt-8">
-          <ThreeGlobe />
+        <div className="pb-28" >
+          <Navbar />
         </div>
+        <TwoColumnSection />
+        <TwoColumnSection />
+        <TwoColumnSection />
+        <TwoColumnSection />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
