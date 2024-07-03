@@ -1,4 +1,4 @@
-This is [AluminiConnect] a platform for the alumini of the JNTU Hyderabad.
+This is Alumini Connect a platform for the alumini of the JNTU Hyderabad.
 
 ## Getting Started
 
