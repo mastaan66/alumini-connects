@@ -14,26 +14,23 @@ export default function Navbar() {
         {/* Logo and title */}
         <Link rel="preload" href="/" legacyBehavior>
           <a className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="/jntu-Kittl.svg" className="h-20" alt="Flowbite Logo" />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Alumni Connect</span>
+            <img src="/icon.svg" className="h-16 rounded-full" alt="Flowbite Logo" />
+            <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Alumni Connect</span>
           </a>
         </Link>
         {/* Desktop menu */}
         <div className="hidden md:flex md:items-center md:space-x-4">
           <Link rel="preload" href="/" legacyBehavior>
-            <a className="text-gray-900 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">Home</a>
+            <a className="text-white hover:text-gray-500">Home</a>
           </Link>
           <Link rel="preload" href="/about" legacyBehavior>
-            <a className="text-gray-900 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">About</a>
-          </Link>
-          <Link rel="preload" href="/college" legacyBehavior>
-            <a className="text-gray-900 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">College</a>
+            <a className="text-white hover:text-gray-500">About</a>
           </Link>
           <Link rel="preload" href="/contact" legacyBehavior>
-            <a className="text-gray-900 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">Contact</a>
+            <a className="text-white hover:text-gray-500">Contact</a>
           </Link>
           <Link rel="preload" href="/connect" legacyBehavior>
-            <a className="text-gray-900 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">Connect</a>
+            <a className="text-white hover:text-gray-500">Connect</a>
           </Link>
         </div>
         {/* Hamburger menu */}
@@ -41,7 +38,7 @@ export default function Navbar() {
           <button
             onClick={toggleMenu}
             type="button"
-            className="text-gray-900 dark:text-white hover:text-gray-900 dark:hover:text-gray-300 focus:outline-none"
+            className="text-white hover:text-gray-700  focus:outline-none"
             aria-controls="mobile-menu"
             aria-expanded={isOpen ? 'true' : 'false'}
           >
@@ -65,27 +62,22 @@ export default function Navbar() {
             <ul className="flex flex-col w-full font-medium border border-gray-100 rounded-lg dark:bg-black dark:border-gray-700">
               <li>
                 <Link rel="preload" href="/" legacyBehavior>
-                  <a className="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Home</a>
+                  <a className="block py-2 px-4 text-white rounded hover:bg-gray-700 ">Home</a>
                 </Link>
               </li>
               <li>
                 <Link rel="preload" href="/about" legacyBehavior>
-                  <a className="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">About</a>
-                </Link>
-              </li>
-              <li>
-                <Link rel="preload" href="/college" legacyBehavior>
-                  <a className="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">College</a>
+                  <a className="block py-2 px-4 text-white rounded hover:bg-gray-700">About</a>
                 </Link>
               </li>
               <li>
                 <Link rel="preload" href="/contact" legacyBehavior>
-                  <a className="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Contact</a>
+                  <a className="block py-2 px-4 text-white rounded hover:bg-gray-700">Contact</a>
                 </Link>
               </li>
               <li>
                 <Link rel="preload" href="/connect" legacyBehavior>
-                  <a className="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Connect</a>
+                  <a className="block py-2 px-4 text-white rounded hover:bg-gray-700">Connect</a>
                 </Link>
               </li>
             </ul>
