@@ -9,7 +9,7 @@ const Contact = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex justify-center items-center h-full">
+      <div className="pt-32 pb-20 flex justify-center items-center h-full">
         <section className="bg-gray-800 py-8 lg:py-16 px-4 mx-auto max-w-screen-md w-full sm:w-5/6 md:w-4/6 lg:w-3/6 xl:w-2/6 rounded-lg shadow-lg overflow-y-auto">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-white">Contact Us</h2>
           <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">

@@ -17,13 +17,10 @@ const TwoColumnSection = () => {
           <div className="lg:w-1/2">
             <div className="max-w-lg mx-auto">
               <h2 className="text-3xl font-bold leading-tight text-white mb-4">
-                Section Title 1
+                Professors Of JNTUH
               </h2>
               <p className="text-white leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat.
+                All Professors with Vice-Chancellor of JNTUH
               </p>
             </div>
           </div>
@@ -37,13 +34,10 @@ const TwoColumnSection = () => {
           <div className="lg:w-1/2 mb-8 lg:mb-0 order-last lg:order-first">
             <div className="max-w-lg mx-auto">
               <h2 className="text-3xl font-bold leading-tight text-white mb-4">
-                Section Title 2
+                JGAM 2023
               </h2>
               <p className="text-white leading-relaxed">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
+                Hn Governer of Telangana visited JNTUH for Global alumini meet
               </p>
             </div>
           </div>

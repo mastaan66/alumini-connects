@@ -7,6 +7,6 @@ export default function handler(req, res) {
     console.log('OAuth Callback:', { code, state });
   
     // Redirect to frontend route
-    res.redirect('/chat'); // Replace with your desired redirect route
+    res.redirect('http://localhost:3002/'); // Replace with your desired redirect route
   }
   
