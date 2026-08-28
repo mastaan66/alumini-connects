@@ -1,20 +1,60 @@
-This is Alumini Connect a platform for the alumini of the JNTU Hyderabad.
+# alumini-connects
 
-## Getting Started
+A web platform for JNTUH alumni and current students to connect, share updates and maintain the university network. Built with Next.js, Tailwind and a file based routing structure.
 
-First, run the development server:
+The project provides a directory of alumni profiles, authentication flows and a clean, responsive layout for browsing by batch and department.
 
-```bash
-yarn install
-yarn dev
+## Why this exists
+
+Alumni networks rely on scattered groups and spreadsheets. This service centralises profiles and makes it easy to find batchmates, mentors and opportunities within the JNTUH community.
+
+## Features
+
+- Alumni directory with search and filters
+- Authentication pages and protected routes
+- Responsive layout with Next.js and Tailwind
+- Component based structure in `src` and `Components`
+
+## Project structure
+
+```text
+.
+├── pages
+├── src
+├── Components
+├── public
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the website.
+## Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Node 18 or later.
 
-## Learn More
+## Installation
 
-To learn more about alumini connect, take a look at the website :
+```bash
+git clone https://github.com/mastaan66/alumini-connects.git
+cd alumini-connects
+npm install
+```
 
-You can check out [alumini connect repository](https://github.com/mastaan66/alumini-connects) - your feedback and contributions are welcome!
+## Usage
+
+```bash
+npm run dev
+```
+
+Open `http://localhost:3000`. Build for production with `npm run build`.
+
+## Limitations
+
+- No live deployment linked yet
+- Repository name contains a typo `alumini` instead of `alumni`. Keep it for history or rename with redirect.
+
+## Contributing
+
+Issues and pull requests are welcome.
+
+## License
+
+MIT. See LICENSE.
